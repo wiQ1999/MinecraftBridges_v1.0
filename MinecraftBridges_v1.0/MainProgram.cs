@@ -6,7 +6,7 @@ namespace MinecraftBridges_v1._0
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			
 		}
 	}
 }
