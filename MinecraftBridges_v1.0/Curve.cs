@@ -74,7 +74,7 @@ namespace MinecraftBridges_v1._0
 		}
 
 		/// <summary>
-		/// Creates curve from selected type od operation
+		/// Creates curve from selected type operation
 		/// </summary>
 		/// <param name="a_iType">Opeartion type</param>
 		private void CreateCurve(int a_iType)
