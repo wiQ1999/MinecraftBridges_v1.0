@@ -6,13 +6,16 @@ namespace MinecraftBridges_v1._0
 	{
 		static void Main(string[] args)
 		{
-			Map map = new Map(12, 2, 1, 14);
+			Console.Title = "MinecraftBridges v1.0 Alfa";
 
-			//map.AddPoint();
+			Map map = new Map(7, 50, -3, -8);
+
+			map.AddPoint();
+			map.AddPoint();
 
 			map.ShowMap();
 
-			Console.SetCursorPosition(0, 30);
+			Console.SetCursorPosition(0, map.MainMap.GetLength(1) + 3);
 		}
 	}
 }
